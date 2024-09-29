@@ -1,6 +1,6 @@
 {
 	"name": "@ff6347/named-css-colors",
-	"version": "0.1.0",
+	"version": "0.1.1-0",
 	"main": "dist/index.js",
 	"exports": {
 		"./package.json": "./package.json",
