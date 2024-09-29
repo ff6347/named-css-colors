@@ -1,0 +1,53 @@
+{
+	"name": "@ff6347/named-css-colors",
+	"version": "0.1.0",
+	"main": "dist/index.js",
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"import": "./dist/index.js",
+			"default": "./dist/index.cjs"
+		}
+	},
+	"scripts": {
+		"build": "tsup",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"check:exports": "attw --pack .",
+		"check:types": "tsc"
+	},
+	"files": [
+		"dist"
+	],
+	"keywords": [],
+	"author": "ff6347 <hash@ff6347.email>",
+	"license": "MIT",
+	"description": "List of named CSS colors with some helper functions. This package might be only useful to me.",
+	"type": "module",
+	"devDependencies": {
+		"@arethetypeswrong/cli": "0.16.4",
+		"@technologiestiftung/semantic-release-config": "1.2.4",
+		"@types/node": "22.7.4",
+		"semantic-release": "24.1.2",
+		"tsup": "8.3.0",
+		"tsx": "4.19.1",
+		"typescript": "5.6.2"
+	},
+	"prettier": {
+		"tabWidth": 2,
+		"semi": true,
+		"singleQuote": false,
+		"useTabs": true,
+		"printWidth": 80,
+		"overrides": [
+			{
+				"files": [
+					"*.yml",
+					"*.yaml"
+				],
+				"options": {
+					"useTabs": false
+				}
+			}
+		]
+	}
+}
