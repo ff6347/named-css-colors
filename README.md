@@ -1,6 +1,9 @@
 # @ff6347/named-css-colors
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 List of named CSS colors with some helper functions.
@@ -36,9 +39,8 @@ import {
 	hexToRgb,
 	rgbToHsl,
 	getBrightness,
+	colors,
 } from "@ff6347/named-css-colors";
-
-const color = colors.red;
 
 const hue = getHue(colors.hashmap.black.hex);
 ```
