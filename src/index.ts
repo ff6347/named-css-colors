@@ -1,4 +1,4 @@
-interface ColorItem {
+export interface ColorItem {
 	hsl: [number, number, number];
 	rgb: [number, number, number];
 	name: string;
