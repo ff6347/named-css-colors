@@ -24,13 +24,13 @@
 	"description": "List of named CSS colors with some helper functions. This package might be only useful to me.",
 	"type": "module",
 	"devDependencies": {
-		"@arethetypeswrong/cli": "0.17.2",
+		"@arethetypeswrong/cli": "0.17.3",
 		"@technologiestiftung/semantic-release-config": "1.2.4",
-		"@types/node": "22.10.2",
-		"semantic-release": "24.2.0",
+		"@types/node": "22.10.6",
+		"semantic-release": "24.2.1",
 		"tsup": "8.3.5",
 		"tsx": "4.19.2",
-		"typescript": "5.7.2"
+		"typescript": "5.7.3"
 	},
 	"prettier": {
 		"tabWidth": 2,
