@@ -26,8 +26,8 @@
 	"devDependencies": {
 		"@arethetypeswrong/cli": "0.17.3",
 		"@technologiestiftung/semantic-release-config": "1.2.4",
-		"@types/node": "22.12.0",
-		"semantic-release": "24.2.1",
+		"@types/node": "22.13.1",
+		"semantic-release": "24.2.2",
 		"tsup": "8.3.6",
 		"tsx": "4.19.2",
 		"typescript": "5.7.3"
