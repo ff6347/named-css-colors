@@ -2,6 +2,7 @@
 name: Node.js CI
 permissions:
   contents: write
+  id-token: write # needed for npm trusted publishing (OIDC)
   packages: write
 on:
   push:
@@ -40,4 +41,3 @@ jobs:
           npx semantic-release --ci
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
