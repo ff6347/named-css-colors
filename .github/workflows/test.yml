@@ -29,6 +29,11 @@ jobs:
     name: semantic-release
     needs: [build]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
         with:
