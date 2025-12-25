@@ -21,6 +21,10 @@
 	"keywords": [],
 	"author": "ff6347 <hash@ff6347.email>",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ff6347/named-css-colors.git"
+	},
 	"description": "List of named CSS colors with some helper functions. This package might be only useful to me.",
 	"type": "module",
 	"devDependencies": {
