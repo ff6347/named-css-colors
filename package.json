@@ -30,7 +30,7 @@
 	"devDependencies": {
 		"@arethetypeswrong/cli": "0.18.2",
 		"@ff6347/semantic-release-config": "1.0.6",
-		"@types/node": "24.10.1",
+		"@types/node": "24.10.4",
 		"semantic-release": "25.0.2",
 		"tsup": "8.5.1",
 		"tsx": "4.21.0",
