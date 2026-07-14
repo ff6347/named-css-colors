@@ -28,7 +28,7 @@
 	"description": "List of named CSS colors with some helper functions. This package might be only useful to me.",
 	"type": "module",
 	"devDependencies": {
-		"@arethetypeswrong/cli": "0.18.3",
+		"@arethetypeswrong/cli": "0.18.4",
 		"@ff6347/semantic-release-config": "1.0.6",
 		"@types/node": "24.13.2",
 		"semantic-release": "25.0.5",
